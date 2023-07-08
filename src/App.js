@@ -11,7 +11,7 @@ function App() {
 
     useEffect(() => {
         fetchBooks();
-    }, []); // eslint-disable-line
+    }, [fetchBooks]);
 
 
     return (
